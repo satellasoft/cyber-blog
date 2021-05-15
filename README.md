@@ -20,3 +20,12 @@ O arquivo de configuração fica na pasta **app\config**, contendo o arquivo **c
 Faz umavalidação através de uma variável para verificar qual arquivo será utilizado.
 
 Mude o valor da variável **$prod** para true se quiser carregar os arquivo de configuração de prod, mas caso queira utilizar o arquivo de configurações locais, basta manter o valor da variável para false.
+
+# Renderizando páginas com Twig
+
+Para renderizar uma página com o Twig basta extender a classe **App\Core\Controller.php** e chamar o método view.
+
+O método recebe dois parâmetros, sendo eles:
+
+* **$page** - Página a ser carregada, não informe .twig.php pois já é inserido automáticamente. Não utilizar **/** para diretório, mas sim **.**, ex: **diretorio.pagina**;
+* **$params** - Array associativo com os valores a serem entregues para a página do twig.

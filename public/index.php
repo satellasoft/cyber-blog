@@ -2,4 +2,4 @@
 
 require_once('../vendor/autoload.php');
 
-die(BASE);
+(new \App\Core\Router());
