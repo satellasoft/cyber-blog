@@ -1,0 +1,126 @@
+:root {
+    /*CORES*/
+    --cor-azul: #38B6FF;
+    --cor-vermelho: #ef3e39;
+    --cor-cinza-claro: #eee;
+    --cor-cinza-escuro: #3d3d3d;
+    --cor-branco: #fff;
+    --cor-preto: #000;
+
+    /*TAMANHOS*/
+    --max-width: 1200px;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.max-width {
+    max-width: var(--max-width);
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+/*HEADER*/
+.logo-topo {
+    max-width: 350px;
+    padding: 10px;
+    width: 100%;
+}
+
+#txtBuscaPostagem {
+    max-width: 300px;
+    width: 100%;
+    color: var(--cor-cinza-escuro);
+    border: 1px solid var(--cor-azul);
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/*MENU*/
+.nav-topo-site {
+    background-color: var(--cor-cinza-escuro);
+}
+
+.nav-topo-site ul {
+    padding: 0;
+    list-style: none;
+}
+
+.nav-topo-site ul li {
+    display: inline;
+}
+
+.nav-topo-site ul li a {
+    color: var(--cor-branco);
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: background .5s;
+}
+
+.nav-topo-site ul li a:hover {
+    background-color: var(--cor-azul);
+}
+
+.nav-topo-site ul li:last-child {
+    float: right;
+    background-color: var(--cor-azul);
+
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: var(--cor-cinza-escuro);
+    padding: 10px;
+    border-top: 5px solid var(--cor-azul);
+    color: var(--cor-branco);
+}
+
+footer a {
+    color: var(--cor-branco);
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+footer a:hover {
+    color: var(--cor-vermelho);
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+/*Components*/
+
+.component-quare-post {
+    text-align: center;
+}
+
+.component-quare-post img {
+    width: 100%;
+    border: none;
+}
+
+.component-quare-post .title {
+    color: var(--cor-cinza-escuro);
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+.component-quare-post .title:hover{
+    color: var(--cor-vermelho);
+}
