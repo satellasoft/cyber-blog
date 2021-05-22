@@ -30,7 +30,7 @@ O método recebe dois parâmetros, sendo eles:
 * **$page** - Página a ser carregada, não informe .twig.php pois já é inserido automáticamente. Não utilizar **/** para diretório, mas sim **.**, ex: **diretorio.pagina**;
 * **$params** - Array associativo com os valores a serem entregues para a página do twig.
 
-#View Partials
+# View Partials
 
 Dentro da pasta **partials/**,contém vários arquivos de visão especiais, sendo eles:
 
