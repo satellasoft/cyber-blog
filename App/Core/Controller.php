@@ -23,6 +23,8 @@ class Controller
 
         $twig = new \Twig\Environment($loader);
 
+        $twig->addGlobal('BASE', BASE);
+
         echo $twig->render($page, $params);
     }
 }

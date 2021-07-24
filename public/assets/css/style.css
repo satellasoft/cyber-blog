@@ -124,3 +124,46 @@ footer a:hover {
 .component-quare-post .title:hover{
     color: var(--cor-vermelho);
 }
+
+/*Componente utilizado na página de busca*/
+.component-post-search{
+    text-align: left;
+    padding-bottom: 15px;
+    border-bottom:1px solid #ccc;
+    margin-top: 15px;
+}
+
+.component-post-search:last-child{
+    border: none;
+}
+
+.component-post-search img{
+    border: none;
+    opacity: .8;
+    width: 100%;
+ }
+
+ .component-post-search img:hover{
+    opacity: 1;
+ }
+
+ .component-post-search h1{
+    font-size: 2em;
+  }
+
+  .component-post-search h2{
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.component-post-search a{
+   font-weight: bold;
+   color: var(--cor-azul);
+}
+
+/*Article*/
+
+.article h2{
+    font-weight: normal;
+    font-size: 1.5em;
+}
